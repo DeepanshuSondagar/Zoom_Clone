@@ -6,9 +6,6 @@ import { dirname, join } from 'path';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 config({ path: join(__dirname, '..', '.env') });
 
-// Debug line - remove after fixing
-console.log("MONGO_URI loaded:", process.env.MONGO_URI);
-
 import express from "express";
 import { createServer } from "node:http";
 import mongoose from "mongoose";

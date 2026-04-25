@@ -1,6 +1,6 @@
  import './App.css';
-import {BrowserRouter as  Router,Route, Routes } from 'react-router-dom';
-import LandingPage from './pages/landing';
+import {HashRouter as  Router,Route, Routes } from 'react-router-dom';
+ import LandingPage from './pages/landing';
 import Authentication from './pages/authentication';
 import { AuthProvider } from './contents/AuthContext';
 import VideoMeetComponent from './pages/ViedoMeet';
